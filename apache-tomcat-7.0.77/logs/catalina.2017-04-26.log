@@ -1,0 +1,178 @@
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.77
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 28 2017 16:01:48 UTC
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.77.0
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.13.0-107-generic
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_121-b00
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/root/openmrss/apache-tomcat-7.0.77/conf/logging.properties
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/root/openmrss/apache-tomcat-7.0.77/endorsed
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/root/openmrss/apache-tomcat-7.0.77/temp
+Apr 26, 2017 7:30:26 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Apr 26, 2017 7:30:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:27 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1910 ms
+Apr 26, 2017 7:30:27 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 26, 2017 7:30:27 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.77
+Apr 26, 2017 7:30:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/ROOT
+Apr 26, 2017 7:30:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/ROOT has finished in 1,486 ms
+Apr 26, 2017 7:30:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/docs
+Apr 26, 2017 7:30:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/docs has finished in 249 ms
+Apr 26, 2017 7:30:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/host-manager
+Apr 26, 2017 7:30:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/host-manager has finished in 311 ms
+Apr 26, 2017 7:30:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/manager
+Apr 26, 2017 7:30:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/manager has finished in 121 ms
+Apr 26, 2017 7:30:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/examples
+Apr 26, 2017 7:30:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/examples has finished in 1,112 ms
+Apr 26, 2017 7:30:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:30 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3648 ms
+Apr 26, 2017 7:30:36 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Apr 26, 2017 7:30:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:36 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 26, 2017 7:30:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.77
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 28 2017 16:01:48 UTC
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.77.0
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.13.0-107-generic
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_121-b00
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/root/openmrss/apache-tomcat-7.0.77/conf/logging.properties
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/root/openmrss/apache-tomcat-7.0.77/endorsed
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/root/openmrss/apache-tomcat-7.0.77
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/root/openmrss/apache-tomcat-7.0.77/temp
+Apr 26, 2017 7:30:47 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Apr 26, 2017 7:30:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1846 ms
+Apr 26, 2017 7:30:47 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 26, 2017 7:30:47 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.77
+Apr 26, 2017 7:30:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/ROOT
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/ROOT has finished in 1,539 ms
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/docs
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/docs has finished in 264 ms
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/host-manager
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/host-manager has finished in 368 ms
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/manager
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/manager has finished in 132 ms
+Apr 26, 2017 7:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/examples
+Apr 26, 2017 7:30:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/openmrss/apache-tomcat-7.0.77/webapps/examples has finished in 1,087 ms
+Apr 26, 2017 7:30:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 7:30:51 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 7:30:51 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3705 ms
+Apr 26, 2017 8:06:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 8:06:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 8:06:34 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 26, 2017 8:06:35 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 8:06:35 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Apr 26, 2017 8:06:35 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Apr 26, 2017 8:06:35 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

@@ -1,9 +1,7 @@
 FROM ubuntu:16.04
 RUN apt-get update  && apt-get install -y openjdk-8-jdk
-ADD tomcat.conf /etc/init/tomcat.conf
 ADD apache-tomcat-7.0.77 /usr/share/apache-tomcat-7.0.77
 RUN initctl reload-configuration && mkdir /root/.OpenMRS
-ADD openmrs-runtime.properties /root/.OpenMRS/openmrs-runtime.properties
 ADD tomcat-users.xml /usr/share/apache-tomcat-7.0.77/conf/tomcat-users.xml
 ADD web.xml /usr/share/apache-tomcat-7.0.77/webapps/manager/WEB-INF/web.xml
 ADD https://excellmedia.dl.sourceforge.net/project/openmrs/releases/OpenMRS_Platform_2.0.1/openmrs.war /usr/share/apache-tomcat-7.0.77/webapps/openmrs.war
